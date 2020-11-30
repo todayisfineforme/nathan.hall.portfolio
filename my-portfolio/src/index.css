@@ -1,14 +1,46 @@
 body {
-  margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  position: fixed;
+    margin: 0;
+    /* font-family: 'Spartan', sans-serif; */
+    font-family: 'Nunito Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgba(0,0,0,0.9);
+    height: 100%;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+}
+ 
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.containerDiv{
+    padding: 0 !important;
+    max-width: none !important;
+    max-height: 100%;
+    /* overflow: hidden; */
+    height: 100vh;
+    background-image: url(./images/DSC07288.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.leftDiv{
+    float: left;
+    flex: 1;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.rightDiv{
+    background-color: rgba(0,0,0,0.9);
+    flex: 1;
+    /* vertical-align: middle; */
+    z-index: 1;
 }
 
 /* * { 

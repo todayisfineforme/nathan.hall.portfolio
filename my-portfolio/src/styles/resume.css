@@ -1,0 +1,55 @@
+.resumeLeftDiv{
+    height: 100vh;
+}
+
+.resumeRightDiv{
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.resumeImg{
+    min-width: 100%;
+    max-height: 100%;
+    position: cover;
+}
+
+.resume{
+    padding: 5vh;
+}
+
+.resumeH1{
+    font-size: 70px;
+    padding-left: 1vh;
+    margin-block-start: 1vh;
+    margin-block-end: 1vh;
+}
+
+.resumeH2{
+    font-size: 40px;
+    padding-left: 1vh;
+    margin-block-end: 1vh;
+}
+
+.resumeH3{
+    font-size: 30px;
+    padding-left: 3vh;
+    margin-block-start: 1vh;
+    margin-block-end: 1vh;
+}
+
+.resumeH4{
+    font-size: 25px;
+    padding-left: 3vh;
+    margin-block-start: 1vh;
+    margin-block-end: 1vh;
+}
+
+.resumeP{
+    font-size: 20px;
+    padding-left: 3vh;
+}
+
+.resumeUL{
+    font-size: 20px;
+    padding-left: 10%;
+}

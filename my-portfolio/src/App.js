@@ -4,7 +4,7 @@ import './App.css';
 import { Switch, Route } from 'react-router-dom';
 import Landing from './components/landing'; 
 import Projects from './components/projects';
-import Profile from './components/profile';
+import Resume from './components/resume';
 import Stuff from './components/other_stuff';
 
 
@@ -14,7 +14,7 @@ function App() {
         <Switch>
             <Route exact path='/' component={Landing} />
             <Route exact path='/projects' component={Projects} />
-            <Route exact path='/profile' component={Profile} />
+            <Route exact path='/resume' component={Resume} />
             <Route exact path='/stuff' component={Stuff} />
         </Switch>
     );

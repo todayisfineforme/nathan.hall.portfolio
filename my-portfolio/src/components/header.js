@@ -6,7 +6,7 @@ function header(){
         <header>
             <a href="/">home</a>
             <a href="/projects">projects</a>
-            <a href="/profile">profile</a>
+            <a href="/resume">resume</a>
             <a href="/stuff">stuff</a>
         </header>
     )
