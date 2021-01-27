@@ -1,0 +1,72 @@
+.codeQuiz{
+    background-image: url(../images/projects/code_quiz.jpeg);
+    margin: 1vw;
+    background-size:cover;
+    display: flex;
+}
+
+.employeeDirectory{
+    background-image: url(../images/projects/employee_directory.jpeg);
+    margin: 1vw;
+    background-size:cover;
+    display: flex;
+}
+
+.gardenHelper{
+    background-image: url(../images/projects/Garden_Helper_frontend.jpeg);
+    margin: 1vw;
+    background-size:cover;
+    display: flex;
+}
+
+.progressiveBudget{
+    background-image: url(../images/projects/progressive_budget.jpeg);
+    margin: 1vw;
+    background-size:cover;
+    display: flex;
+}
+
+.tandemQuiz{
+    background-image: url(../images/projects/tandem_trivia.jpeg);
+    margin: 1vw;
+    background-size:cover;
+    display: flex;
+}
+
+.weatherDashboard{
+    background-image: url(../images/projects/weather_dashboard.jpeg);
+    margin: 1vw;
+    background-size:cover;
+    display: flex;
+}
+
+.cardText{
+    background-color: rgba(0,0,0, 0.8);
+    z-index: 2;
+    color: white;
+    font-weight: normal;  
+}
+
+.cardFrontText{
+    background-color: rgba(0,0,0, 0.8);
+    z-index: 2;
+    color: white;
+    font-weight: normal;  
+    font-size: 4vh;
+}   
+
+h1{
+    font-size: 6.5vh;
+    font-weight: normal;
+    margin-block-start: 2.0vh;
+    margin-block-end: -4.0vh;
+}
+
+h2{
+    font-size: 3vh;
+    font-weight: normal;
+}
+
+.cardContainer{
+    height: 100%;
+}

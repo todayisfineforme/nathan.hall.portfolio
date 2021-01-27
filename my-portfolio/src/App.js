@@ -9,11 +9,11 @@ import Stuff from './components/other_stuff';
 
 
 
-function App() {
+function App({...rootDOMAttributes}) {
     return (
         <Switch>
             <Route exact path='/' component={Landing} />
-            <Route exact path='/projects' component={Projects} />
+            <Route exact path='/projects' component={Projects} {...rootDOMAttributes}/>
             <Route exact path='/resume' component={Resume} />
             <Route exact path='/stuff' component={Stuff} />
         </Switch>

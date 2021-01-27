@@ -11,7 +11,7 @@ import Header from './header';
 function Landing(){
     return(
         <Container className="containerDiv">
-            <Grid container spacing={0}>
+            <Grid container className="landingContainer" spacing={0}>
                 <Grid item xl className="leftDiv landingLeftDiv">
                     <img src={landingImage} className="landingImg"/>
                 </Grid>
