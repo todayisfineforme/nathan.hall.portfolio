@@ -1,9 +1,6 @@
-import React, { Component } from "react";
-import Container from '@material-ui/core/Container';
+import React  from "react";
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import '../styles/project_card.css'
 
 function Project_Card_Back(props){
@@ -20,12 +17,12 @@ function Project_Card_Back(props){
                     <Grid container spacing={7} className="cardText">
                         {props.deployed != null &&
                             <Grid item>
-                                <h2><a target="_blank" href={props.deployed}>Deployed</a></h2>
+                                <h2><a target="_blank" rel="noreferrer" href={props.deployed}>Deployed</a></h2>
                             </Grid>
                         }
                         {props.github != null &&
                             <Grid item>
-                                <h2><a target="_blank" href={props.github}>Github</a></h2>
+                                <h2><a target="_blank" rel="noreferrer" href={props.github}>Github</a></h2>
                             </Grid>
                         }
                     </Grid>

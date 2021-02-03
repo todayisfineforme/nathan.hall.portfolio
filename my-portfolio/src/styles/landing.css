@@ -4,15 +4,11 @@
     flex: 1;
     max-height: 100%;
     overflow: hidden;
-    /* position: fixed; */
-    /* overflow-y: hidden; */
-
 }
 
 .landingImg{
     max-width: 100%;
     min-height: 100%;
-    /* height: 100%; */
     width: auto;
     position: relative;
     top: -12%;
@@ -33,9 +29,6 @@
     font-weight: normal;
     margin: 0%;
     padding-top: 30vh;
-    padding-left: 5%;
-    /* -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black; */
 }
 
 .landingH2{
@@ -55,7 +48,3 @@
 .landingContainer{
     height: 100%
 }
-
-/* .bottom{
-    height: 100%;
-} */

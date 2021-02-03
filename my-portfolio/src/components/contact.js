@@ -1,15 +1,9 @@
-import React, { Component, useState } from "react";
+import React from "react";
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
-import Paper from '@material-ui/core/Paper';
-import Button from '@material-ui/core/Button';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import '../styles/contact.css';
-import landingImage from '../images/2019-11-29_16-00-17_000.jpeg';
 import Header from './header';
 import contactPicture from '../images/DSC07314.JPG';
-import TextField from '@material-ui/core/TextField';
 import{ init } from 'emailjs-com';
 import emailjs from 'emailjs-com';
 
@@ -28,15 +22,11 @@ function sendEmail(e) {
 
 function Contact (){
 
-    // const [name, setName] = useState("");
-    // const [email, setEmail] = useState("");
-    // const [message, setMessage] = useState("");
-
     return(
         <Container className="containerDiv">
             <Grid container spacing={0}>
                 <Grid item xl className="leftDiv contactLeftDiv">
-                    <img src={contactPicture} className="contactImg"/>
+                    <img src={contactPicture} alt="decorative business sign that says satellite on it" className="contactImg"/>
                 </Grid>
                 <Grid item className="rightDiv contactDiv">
                     <Header active="contact"/>

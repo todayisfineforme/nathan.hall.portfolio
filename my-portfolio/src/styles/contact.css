@@ -3,11 +3,9 @@
     width: 50%;
     background-color: rgba(0,0,0, 0.9);
     display: block;
-    /* margin-left: 50% !important; */
     justify-content: center;
     text-align: center;
     overflow: hidden;
-    /* overflow-x: hidden; */
 }
 
 .contactLeftDiv{
@@ -27,12 +25,10 @@
 
 .formDiv{
     height:100%
-    /* margin:10% */
 }
 
 .contactPaper{
     width: 50%;
-    /* background-color:rgba(200,200,200, 0.9) !important; */
 }
 
 .sendButton{

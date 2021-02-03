@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
-import Paper from '@material-ui/core/Paper';
 import Header from './header';
 import '../styles/resume.css';
 import resumePicture from '../images/DSC07360.JPG';
@@ -13,7 +12,7 @@ class Resume extends Component{
             <Container className="containerDiv">
                 <Grid container spacing={0}>
                     <Grid item xl className="leftDiv resumeLeftDiv">
-                        <img src={resumePicture} className="resumeImg"/>
+                        <img src={resumePicture} alt="nathan hall looing at old business signs" className="resumeImg"/>
                     </Grid>
                     <Grid item xl className="rightDiv resumeRightDiv">
                         <Header active="resume"/>
