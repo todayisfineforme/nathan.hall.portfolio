@@ -16,7 +16,7 @@ function Landing(){
                     <img src={landingImage} className="landingImg"/>
                 </Grid>
                 <Grid item xl alignItems="flex-end" className="rightDiv landingRightDiv">
-                    <Header/>
+                    <Header active="home"/>
                     <h1 className="landingH1">Hello</h1>
                     <h2 className="landingH2">My name is Nathan Hall</h2>
                     <h3 className="landingH3">I'm a full stack web developer based in Chicago</h3>

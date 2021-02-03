@@ -39,7 +39,7 @@ function Contact (){
                     <img src={contactPicture} className="contactImg"/>
                 </Grid>
                 <Grid item className="rightDiv contactDiv">
-                    <Header/>
+                    <Header active="contact"/>
                     <Grid container className="formDiv">
                         <div className="container-fluid">
                             <div className="row formDiv align-items-center">

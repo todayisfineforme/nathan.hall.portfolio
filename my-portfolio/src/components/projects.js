@@ -15,7 +15,7 @@ function Projects(props){
 
     const cardStyle = {
         height: '7.5vw',
-        width: '14vw'
+        width: '13vw'
     };
 
 
@@ -23,7 +23,7 @@ function Projects(props){
         <Container className="projects">
             <Grid container spacing={0} className="">
                 <Grid item className="projectDiv">
-                    <Header/>
+                    <Header active="projects"/>
                     {/* <p className="projectTitle">My Projects</p> */}
                     <Grid container justify="center">
                         <Project_Card_Back 

@@ -16,7 +16,7 @@ class Resume extends Component{
                         <img src={resumePicture} className="resumeImg"/>
                     </Grid>
                     <Grid item xl className="rightDiv resumeRightDiv">
-                        <Header/>
+                        <Header active="resume"/>
                         <Grid item className="resume">
                             <h1 className="resumeH1">Nathan Hall</h1>
                             <p className="resumeP">Chicago, Illinois 60613 · he/him/his · nathanhallcodes@gmail.com</p>
