@@ -14,7 +14,7 @@ function Projects(props){
     const [currentCard, setCurrentCard] = useState(0)
 
     const cardStyle = {
-        height: '8vw',
+        height: '7.5vw',
         width: '14vw'
     };
 
@@ -24,7 +24,7 @@ function Projects(props){
             <Grid container spacing={0} className="">
                 <Grid item className="projectDiv">
                     <Header/>
-                    <p className="projectTitle">My Projects</p>
+                    {/* <p className="projectTitle">My Projects</p> */}
                     <Grid container justify="center">
                         <Project_Card_Back 
                             name={project_data[currentCard].name} 

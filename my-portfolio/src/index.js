@@ -3,13 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import Header from './components/header';
 import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
       <BrowserRouter>
-        {/* <Header /> */}
         <App />
       </BrowserRouter>
   </React.StrictMode>,

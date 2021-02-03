@@ -1,0 +1,45 @@
+.contactDiv{
+    height: 100vh;
+    width: 50%;
+    background-color: rgba(0,0,0, 0.9);
+    display: block;
+    /* margin-left: 50% !important; */
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    /* overflow-x: hidden; */
+}
+
+.contactLeftDiv{
+    height: 100vh;
+}
+
+.contactImg{
+    min-width: 100%;
+    max-height: 100%;
+    position: cover;
+}
+
+.textFields{
+    margin: 3vh;
+    width: 80%;
+}
+
+.formDiv{
+    height:100%
+    /* margin:10% */
+}
+
+.contactPaper{
+    width: 50%;
+    /* background-color:rgba(200,200,200, 0.9) !important; */
+}
+
+.sendButton{
+    margin:2vh
+}
+
+.form-control:focus {
+    border-color: rgb(255, 123, 0);
+    box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 123, 0, 0.6);
+  }
