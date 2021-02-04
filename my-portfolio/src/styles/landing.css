@@ -35,14 +35,14 @@
     font-weight: normal;
     font-size: 2.5vw;
     padding-left: 5%;
-    margin: 0%;
+    margin-top: 5vh;
 }
 
 .landingH3{
     font-weight: normal;
     font-size: 1.5vw;
-    padding-left: 5%;
-    margin-top: 3vh;
+    padding-left: 15%;
+    margin-top: 10vh;
 }
 
 .landingContainer{

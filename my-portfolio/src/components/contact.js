@@ -1,26 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 import '../styles/contact.css';
 import Header from './header';
 import contactPicture from '../images/DSC07314.JPG';
-import{ init } from 'emailjs-com';
 import emailjs from 'emailjs-com';
 
-init("user_rzJ3UEbhGmjP7l9Ix2g7p");
-
-function sendEmail(e) {
-    // e.preventDefault();
-
-    emailjs.sendForm('service_r6iwz4m', 'template_uz076q1', e.target, 'user_rzJ3UEbhGmjP7l9Ix2g7p')
-        .then((result) => {
-            console.log(result.text);
-        }, (error) => {
-            console.log(error.text);
-        });
-}
 
 function Contact (){
+
+    const [messageSent, setMessageSent] = useState("");
+
+    function sendEmail(e) {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_r6iwz4m', 'template_uz076q1', e.target, 'user_rzJ3UEbhGmjP7l9Ix2g7p')
+            .then((result) => {
+                console.log(result.text);
+                setMessageSent("sent");
+            }, (error) => {
+                console.log(error.text);
+            });
+    }
 
     return(
         <Container className="containerDiv">
@@ -35,6 +36,13 @@ function Contact (){
                             <div className="row formDiv align-items-center">
                                 <form onSubmit={sendEmail}>
                                     <div className="formDiv mb-3 row justify-content-center">
+                                        {messageSent === "sent" &&
+                                            <div className="col-lg-8">
+                                                <div class="alert" role="alert">
+                                                    <h2>Thank you, We'll be in touch!</h2>
+                                                </div>
+                                            </div>
+                                        }
                                         <div className="col-lg-8">
                                             <div className="mb-3">
                                                 <input 
