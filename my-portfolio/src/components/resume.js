@@ -56,6 +56,11 @@ class Resume extends Component{
                             <h3 className="resumeH3"> --Certificate of Completion</h3>
                             <h4 className="resumeH4">September 2020</h4>
                             <p className="resumeP">A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS.</p>
+                            <br/>
+                            <h3 classname="resumeH3"> The Second City Training Center, Chicago Illinois</h3>
+                            <h3 className="resumeH3"> -Conservatory Program</h3>
+                            <h4 className="resumeH4">Graduated 2019</h4>
+                            <p className="resumeP">An advanced six-level program dedicated to the art of utilizing improvisation as a tool to create a Second City-style revue, the cornerstone of The Second City Training Center. Students in the Conservatory program build upon the fundamentals of improv, advance their scenic and character skills, explore forms and styles and learn how to turn improvised scenes into written material for a satiric comedy revue.</p>
                         </Grid>
                     </Grid>
                 </Grid>
