@@ -18,7 +18,8 @@ class Resume extends Component{
                         <Header active="resume"/>
                         <Grid item className="resume">
                             <h1 className="resumeH1">Nathan Hall</h1>
-                            <p className="resumeP">Chicago, Illinois 60613 · he/him/his · nathanhallcodes@gmail.com</p>
+                            <p className="resumeP">Chicago, Illinois 60613 · he/him/his · <a className="resumeLink" href="mailto: nathanhallcodes@gmail.com">NathanHallCodes@gmail.com</a></p>
+                            <p className="resumeP">LinkedIn: <a className="resumeLink" href="https://linkedin.com/in/todayisfine" target="_blank">linkedin.com/in/todayisfine</a> · Github: <a className="resumeLink" href="https://github.com/todayisfineforme" target="_blank">github.com/todayisfineforme</a></p>
                             <hr/>
                             <br/>
                             <h2 className="resumeH2">Summary</h2>
@@ -35,18 +36,17 @@ class Resume extends Component{
                             <h3 className="resumeH3">February 2017 – March 2020</h3>
                             <h4 className="resumeH4">Vehicle Damage Estimator and Insurance Liaison</h4>
                             <ul className="resumeUL">
-                                <li>Compiled complete repair estimates that took into account required manufacturer repair procedures</li>
-                                <li>Cultivated and maintained long term business relationships with customers</li>
-                                <li>Addressed problems and easily adapted to solve any challenges due to changing customer demands</li>
+                                <li>Compiled complete repair estimates that took into account required manufacturer repair procedures in order to compete competitively in local market</li>
+                                <li>Cultivated and maintained long term business relationships with customers in order to ensure repeat customers and good business reviews </li>
+                                <li>Addressed customer issues by demonstrating excellent customer service as well as easily adapting to solve any challenges due to changing customer demands </li>
                             </ul>
                             <h3 className="resumeH3">Abra Auto Body & Glass – Chicago, IL</h3>
                             <h3 className="resumeH3">February 2015 – January 2017</h3>
                             <h4 className="resumeH4">Estimator and Customer Service Manager</h4>
                             <ul className="resumeUL">
-                                <li>Maintained constant communication with customers via phone calls, and emails through the entire repair process. Handling upwards of 30 - 40 customers per week</li>
-                                <li>Educated customers on the vehicle repair process as well as the options and requirements of utilizing their insurance in said repairs</li>
-                                <li>Prepared necessary supplemental damage estimates for Allstate, Progressive, and Country Financial</li>
-                                <li>Implemented and maintained all of our Local Area Networks</li>
+                                <li>Maintained constant communication with customers via phone calls, and emails through the entire repair process in order to cater to customer’s needs</li>
+                                <li>Educated customers on the vehicle repair process as well as the options and requirements of utilizing their insurance so that customers could have the best repair experience</li>
+                                <li>Prepared necessary supplemental damage estimates for Allstate, Progressive, and Country Financial to allow for proper repair negotiation</li>
                             </ul>
                             <br/>
                             <h2 className="resumeH2">Education</h2>

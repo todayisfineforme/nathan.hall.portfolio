@@ -46,6 +46,7 @@ function Contact (){
                                         <div className="col-lg-8">
                                             <h3>Contact me at:</h3>
                                             <h3><a className="email" href="mailto: nathanhallcodes@gmail.com">NathanHallCodes@gmail.com</a></h3>
+                                            <h3><a className="email" href="https://www.linkedin.com/in/todayisfine" target="_blank">www.linkedin.com/in/todayisfine</a></h3>
                                             <br/>
                                             <h3>or fill out this form</h3>
                                             <div className="mb-3">
