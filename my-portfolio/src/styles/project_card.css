@@ -40,6 +40,20 @@
     display: flex;
 }
 
+.workDayScheduler{
+    background-image: url(../images/projects/work_day_scheduler.jpg);
+    margin: 1vw;
+    background-size:cover;
+    display: flex;
+}
+
+.passwordGenerator{
+    background-image: url(../images/projects/password_generator.jpg);
+    margin: 1vw;
+    background-size:cover;
+    display: flex;
+}
+
 .cardText{
     background-color: rgba(0,0,0, 0.8);
     z-index: 2;
